@@ -432,7 +432,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. MARCOS OLIVEIRA",
+      miniTag: "QUEM É O ADVOGADO MARCOS OLIVEIRA",
       title: "Minha trajetória",
       subtitle:
         "Do setor público à advocacia, encontrei propósito na defesa da saúde.",
@@ -442,38 +442,47 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Fundei meu escritório em 2018, em Florianópolis, movido por um
+          propósito maior: lutar pelos pacientes que se veem sozinhos diante das
+          negativas injustas dos planos de saúde. Desde o início, decidi dedicar
+          minha advocacia exclusivamente a quem precisa garantir o direito a
+          medicamentos, exames e cirurgias — porque sei que, muitas vezes, isso
+          significa lutar pela própria vida.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Fundei meu escritório em 2018, em Florianópolis, movido por um
+          propósito maior: lutar pelos pacientes que se veem sozinhos diante das
+          negativas injustas dos planos de saúde. Desde o início, decidi dedicar
+          minha advocacia exclusivamente a quem precisa garantir o direito a
+          medicamentos, exames e cirurgias — porque sei que, muitas vezes, isso
+          significa lutar pela própria vida.
           <br />
           <br />
-          Minha trajetória no Direito começou de forma não tão linear. Trabalhei
-          na saúde pública e, por um tempo, segui o caminho dos concursos, mas
-          algo sempre me faltava. Foi atuando como voluntário em uma ONG que
-          redescobri o que me movia: ajudar pessoas por meio da advocacia.
+          Minha caminhada no Direito não foi linear. Passei pela saúde pública,
+          segui o caminho dos concursos, mas sentia que algo faltava. Foi ao
+          atuar como voluntário em uma ONG, prestando atendimento jurídico a
+          pessoas em situação de vulnerabilidade, que reencontrei meu verdadeiro
+          chamado: usar o Direito como instrumento para cuidar de pessoas.
           <br />
           <br />
-          Com o tempo, percebi que todo meu histórico na área da saúde fazia
-          sentido. Eu conhecia os bastidores, entendia as dores do sistema — e
-          decidi transformar esse conhecimento em ação. Me especializei em
-          Direito da Saúde e nunca mais parei.
+          Percebi, então, que todo meu percurso fazia sentido. Conhecer de perto
+          o mercado da saúde me deu ferramentas únicas para atuar onde mais sou
+          necessário. Especializei-me em Direito da Saúde e desde então
+          transformei essa missão em rotina.
           <br />
           <br />
-          Hoje, cada caso que chega até mim carrega uma urgência real. Meu
-          compromisso é lutar com empatia, técnica e coragem para garantir que
-          nenhum paciente fique desamparado quando mais precisa.
+          Cada processo que chega até mim carrega uma história, uma urgência,
+          uma vida que não pode esperar. Meu compromisso é lutar com empatia,
+          estratégia e coragem para que ninguém fique desamparado no momento
+          mais delicado.
           <br />
           <br />
-          Tenho orgulho de ser advogado. Mais do que isso: orgulho de advogar
-          por uma causa que salva vidas.
+          Tenho orgulho de ser advogado, mas, acima de tudo, orgulho de colocar
+          meu trabalho a serviço de uma causa que ajuda a salvar vidas — todos
+          os dias.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -540,8 +549,9 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
         "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
