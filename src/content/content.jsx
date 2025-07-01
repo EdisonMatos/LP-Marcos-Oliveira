@@ -133,8 +133,8 @@ const content = {
       miniTag: "ADVOGADO EM SAÚDE EM FLORIANÓPOLIS - SC",
       title: (
         <h1 className="mb-[16px]">
-          Negaram seu direito à saúde?
-          <span className="text-primary"> </span>
+          Advocacia especializada na defesa dos usuários de
+          <span className="text-primary"> planos de saúde.</span>
         </h1>
       ),
       subtitle:
