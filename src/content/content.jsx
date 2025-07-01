@@ -219,7 +219,8 @@ const content = {
             Negativa de cobertura de prótese indispensável ao procedimento
             cirúrgico
             <br />
-            Limitação de sessões de quimioterapia ou fisioterapia
+            Limitação de sessões de quimioterapia, fisioterapia e terapias para
+            pacientes com Transtorno do Espectro Autista - TEA
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
