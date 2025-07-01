@@ -53,7 +53,7 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Marcos Oliveira Advocacia em Saúde",
+  name: "Marcos Oliveira Advocacia em Saúde - OAB/SC 41.231",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "moadvocacia.com.br", // Sem "www"
@@ -119,7 +119,13 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Blog",
+        "Áreas de Atuação",
+        "Quem Somos",
+        "Perguntas Frequentes",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -127,8 +133,8 @@ const content = {
       miniTag: "ADVOGADO EM SAÚDE EM FLORIANÓPOLIS - SC",
       title: (
         <h1 className="mb-[16px]">
-          Negaram seu direito à saúde?
-          <span className="text-primary"> </span>
+          Advocacia especializada na defesa dos usuários de
+          <span className="text-primary"> planos de saúde.</span>
         </h1>
       ),
       subtitle:
@@ -213,7 +219,8 @@ const content = {
             Negativa de cobertura de prótese indispensável ao procedimento
             cirúrgico
             <br />
-            Limitação de sessões de quimioterapia ou fisioterapia
+            Limitação de sessões de quimioterapia, fisioterapia e terapias para
+            pacientes com Transtorno do Espectro Autista - TEA
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -425,7 +432,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. MARCOS OLIVEIRA",
+      miniTag: "QUEM É O ADVOGADO MARCOS OLIVEIRA",
       title: "Minha trajetória",
       subtitle:
         "Do setor público à advocacia, encontrei propósito na defesa da saúde.",
@@ -435,38 +442,47 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Fundei meu escritório em 2018, em Florianópolis, movido por um
+          propósito maior: lutar pelos pacientes que se veem sozinhos diante das
+          negativas injustas dos planos de saúde. Desde o início, decidi dedicar
+          minha advocacia exclusivamente a quem precisa garantir o direito a
+          medicamentos, exames e cirurgias — porque sei que, muitas vezes, isso
+          significa lutar pela própria vida.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Fundei meu escritório em 2018, em Florianópolis, movido por um
+          propósito maior: lutar pelos pacientes que se veem sozinhos diante das
+          negativas injustas dos planos de saúde. Desde o início, decidi dedicar
+          minha advocacia exclusivamente a quem precisa garantir o direito a
+          medicamentos, exames e cirurgias — porque sei que, muitas vezes, isso
+          significa lutar pela própria vida.
           <br />
           <br />
-          Minha trajetória no Direito começou de forma não tão linear. Trabalhei
-          na saúde pública e, por um tempo, segui o caminho dos concursos, mas
-          algo sempre me faltava. Foi atuando como voluntário em uma ONG que
-          redescobri o que me movia: ajudar pessoas por meio da advocacia.
+          Minha caminhada no Direito não foi linear. Passei pela saúde pública,
+          segui o caminho dos concursos, mas sentia que algo faltava. Foi ao
+          atuar como voluntário em uma ONG, prestando atendimento jurídico a
+          pessoas em situação de vulnerabilidade, que reencontrei meu verdadeiro
+          chamado: usar o Direito como instrumento para cuidar de pessoas.
           <br />
           <br />
-          Com o tempo, percebi que todo meu histórico na área da saúde fazia
-          sentido. Eu conhecia os bastidores, entendia as dores do sistema — e
-          decidi transformar esse conhecimento em ação. Me especializei em
-          Direito da Saúde e nunca mais parei.
+          Percebi, então, que todo meu percurso fazia sentido. Conhecer de perto
+          o mercado da saúde me deu ferramentas únicas para atuar onde mais sou
+          necessário. Especializei-me em Direito da Saúde e desde então
+          transformei essa missão em rotina.
           <br />
           <br />
-          Hoje, cada caso que chega até mim carrega uma urgência real. Meu
-          compromisso é lutar com empatia, técnica e coragem para garantir que
-          nenhum paciente fique desamparado quando mais precisa.
+          Cada processo que chega até mim carrega uma história, uma urgência,
+          uma vida que não pode esperar. Meu compromisso é lutar com empatia,
+          estratégia e coragem para que ninguém fique desamparado no momento
+          mais delicado.
           <br />
           <br />
-          Tenho orgulho de ser advogado. Mais do que isso: orgulho de advogar
-          por uma causa que salva vidas.
+          Tenho orgulho de ser advogado, mas, acima de tudo, orgulho de colocar
+          meu trabalho a serviço de uma causa que ajuda a salvar vidas — todos
+          os dias.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -533,8 +549,9 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
         "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
@@ -548,40 +565,59 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question:
-            "O que são períodos de carência e quais são os prazos permitidos?",
+          question: "Como funciona uma ação judicial contra o plano de saúde?",
           answer:
-            "Período de carência é o tempo que o usuário deve aguardar após contratar o plano para usar determinados serviços. Os prazos máximos segundo a ANS são: urgência/emergência em até 24h, consultas e exames em até 180 dias, parto em até 300 dias e até 2 anos para doenças preexistentes.",
+            "O advogado reúne a documentação necessária (contrato do plano, carteirinha, negativa por escrito, relatórios médicos, exames) e entra com um processo judicial. Se houver urgência, já solicita uma liminar para garantir o tratamento imediato. Depois o processo continua até o julgamento final, mas na maioria das vezes o tratamento já começa por força da decisão liminar.",
         },
         question2: {
-          question: "O plano pode negar cobertura se o médico não for da rede?",
+          question:
+            "O que fazer se o plano de saúde negar um medicamento, exame ou cirurgia?",
           answer:
-            "Não. Mesmo que o médico não seja credenciado, o plano não pode recusar a realização de exames ou tratamentos prescritos por ele.",
+            "A primeira providência é solicitar a negativa por escrito, com a justificativa formal. Em seguida, entre em contato com um advogado especialista em saúde. Muitas vezes é possível obter uma liminar para obrigar o plano a custear o procedimento com urgência, a fim de evitar o agravamento do seu estado de saúde.",
         },
         question3: {
-          question: "Quando o plano é obrigado a reembolsar despesas?",
+          question:
+            "O plano de saúde pode negar o medicamento que meu médico prescreveu?",
           answer:
-            "O reembolso deve ser garantido quando o plano não oferece o serviço em rede credenciada na região, ou em casos de urgência/emergência. Isso inclui situações como descredenciamento sem aviso, falta de especialistas ou ausência de prestadores próximos.",
+            "Não. O plano de saúde não pode recusar o tratamento indicado pelo seu médico sob o argumento de que o medicamento é “off-label” (fora da bula aprovada pela Anvisa), ou porque não está no rol da ANS. O médico assistente, que acompanha o paciente, é quem tem competência para definir o tratamento mais adequado, e o plano é obrigado a cobrir. Segundo a legislação dos planos de saúde, mesmo que o medicamento esteja fora do rol, a cobertura deve ser autorizada caso haja comprovação da eficácia ou recomendação de órgão competente.",
         },
         question4: {
           question:
-            "O que fazer em caso de negativa de cobertura pelo plano de saúde?",
-          answer: (
-            <p>
-              A sequência recomendada é:
-              <br />
-              <br />
-              1. Verificar o motivo da negativa com anexação da documentação
-              médica.
-              <br /> <br />
-              2. Registrar protocolo junto à operadora.
-              <br /> <br />
-              3. Fazer denúncia à ANS se necessário.
-              <br /> <br />
-              4. Buscar orientação ou entrar com ação judicial — tanto para
-              obter a cobertura quanto indenização por danos morais.
-            </p>
-          ),
+            "O plano de saúde é obrigado a cobrir medicamentos de alto custo?",
+          answer:
+            "Sim. Mesmo medicamentos caros, como os indicados para o tratamento do câncer, devem ser cobertos quando indispensáveis ao tratamento da doença coberta pelo plano. Nesses casos, é importante um relatório médico completo que demonstre a comprovação da eficácia do medicamento ou que haja recomendação de órgão competente. O valor ou o custo do remédio não é justificativa para a negativa. ",
+        },
+        question5: {
+          question: "O que é uma liminar e como ela pode me ajudar?",
+          answer:
+            "A liminar é uma decisão provisória que o juiz pode conceder logo no início do processo, quando comprovada a urgência. Isso garante ao paciente o início imediato do tratamento ou do fornecimento do medicamento, sem precisar esperar o fim do processo.",
+        },
+        question6: {
+          question: "O que acontece se o plano de saúde não cumprir a liminar?",
+          answer:
+            "O juiz pode aplicar multa diária para obrigar o plano a cumprir a decisão. Se mesmo assim houver descumprimento, o juiz pode adotar medidas mais severas, inclusive bloqueio de valores da conta do plano para custear o tratamento. ",
+        },
+        question7: {
+          question:
+            "O plano pode cancelar meu contrato porque estou usando demais?",
+          answer:
+            "Não. O uso frequente ou a gravidade da doença do paciente não são motivos para o cancelamento do contrato. Isso caracteriza prática abusiva e discriminatória, vedada pelo Código de Defesa do Consumidor e pela legislação dos planos de saúde. ",
+        },
+        question8: {
+          question: "Como posso saber se o meu caso tem chance na Justiça?",
+          answer:
+            "A melhor forma é agendar uma análise do seu caso com um advogado especializado, que vai examinar os documentos, a negativa do plano e o relatório médico. Isso permite avaliar as chances de sucesso e as medidas urgentes a serem tomadas.",
+        },
+        question9: {
+          question: "Quais documentos preciso para entrar com a ação?",
+          answer:
+            "Em geral: cópia do contrato do plano, carteirinha, comprovante dos pagamentos, relatório do médico justificando o tratamento ou exame, e a negativa do plano por escrito. Dependendo do caso, podem ser necessários exames recentes, receitas e outros documentos.",
+        },
+        question10: {
+          question:
+            "O juiz pode obrigar o plano a reembolsar valores que paguei do meu bolso?",
+          answer:
+            "Pode sim. Se você precisou pagar por um tratamento ou medicamento que o plano de saúde negou indevidamente, é possível pedir o reembolso integral, atualizado e com juros.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -591,7 +627,7 @@ const content = {
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
       midSectionName: "Até mais",
       footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente.",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
