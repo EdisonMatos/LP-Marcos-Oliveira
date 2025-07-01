@@ -565,40 +565,59 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question:
-            "O que são períodos de carência e quais são os prazos permitidos?",
+          question: "Como funciona uma ação judicial contra o plano de saúde?",
           answer:
-            "Período de carência é o tempo que o usuário deve aguardar após contratar o plano para usar determinados serviços. Os prazos máximos segundo a ANS são: urgência/emergência em até 24h, consultas e exames em até 180 dias, parto em até 300 dias e até 2 anos para doenças preexistentes.",
+            "O advogado reúne a documentação necessária (contrato do plano, carteirinha, negativa por escrito, relatórios médicos, exames) e entra com um processo judicial. Se houver urgência, já solicita uma liminar para garantir o tratamento imediato. Depois o processo continua até o julgamento final, mas na maioria das vezes o tratamento já começa por força da decisão liminar.",
         },
         question2: {
-          question: "O plano pode negar cobertura se o médico não for da rede?",
+          question:
+            "O que fazer se o plano de saúde negar um medicamento, exame ou cirurgia?",
           answer:
-            "Não. Mesmo que o médico não seja credenciado, o plano não pode recusar a realização de exames ou tratamentos prescritos por ele.",
+            "A primeira providência é solicitar a negativa por escrito, com a justificativa formal. Em seguida, entre em contato com um advogado especialista em saúde. Muitas vezes é possível obter uma liminar para obrigar o plano a custear o procedimento com urgência, a fim de evitar o agravamento do seu estado de saúde.",
         },
         question3: {
-          question: "Quando o plano é obrigado a reembolsar despesas?",
+          question:
+            "O plano de saúde pode negar o medicamento que meu médico prescreveu?",
           answer:
-            "O reembolso deve ser garantido quando o plano não oferece o serviço em rede credenciada na região, ou em casos de urgência/emergência. Isso inclui situações como descredenciamento sem aviso, falta de especialistas ou ausência de prestadores próximos.",
+            "Não. O plano de saúde não pode recusar o tratamento indicado pelo seu médico sob o argumento de que o medicamento é “off-label” (fora da bula aprovada pela Anvisa), ou porque não está no rol da ANS. O médico assistente, que acompanha o paciente, é quem tem competência para definir o tratamento mais adequado, e o plano é obrigado a cobrir. Segundo a legislação dos planos de saúde, mesmo que o medicamento esteja fora do rol, a cobertura deve ser autorizada caso haja comprovação da eficácia ou recomendação de órgão competente.",
         },
         question4: {
           question:
-            "O que fazer em caso de negativa de cobertura pelo plano de saúde?",
-          answer: (
-            <p>
-              A sequência recomendada é:
-              <br />
-              <br />
-              1. Verificar o motivo da negativa com anexação da documentação
-              médica.
-              <br /> <br />
-              2. Registrar protocolo junto à operadora.
-              <br /> <br />
-              3. Fazer denúncia à ANS se necessário.
-              <br /> <br />
-              4. Buscar orientação ou entrar com ação judicial — tanto para
-              obter a cobertura quanto indenização por danos morais.
-            </p>
-          ),
+            "O plano de saúde é obrigado a cobrir medicamentos de alto custo?",
+          answer:
+            "Sim. Mesmo medicamentos caros, como os indicados para o tratamento do câncer, devem ser cobertos quando indispensáveis ao tratamento da doença coberta pelo plano. Nesses casos, é importante um relatório médico completo que demonstre a comprovação da eficácia do medicamento ou que haja recomendação de órgão competente. O valor ou o custo do remédio não é justificativa para a negativa. ",
+        },
+        question5: {
+          question: "O que é uma liminar e como ela pode me ajudar?",
+          answer:
+            "A liminar é uma decisão provisória que o juiz pode conceder logo no início do processo, quando comprovada a urgência. Isso garante ao paciente o início imediato do tratamento ou do fornecimento do medicamento, sem precisar esperar o fim do processo.",
+        },
+        question6: {
+          question: "O que acontece se o plano de saúde não cumprir a liminar?",
+          answer:
+            "O juiz pode aplicar multa diária para obrigar o plano a cumprir a decisão. Se mesmo assim houver descumprimento, o juiz pode adotar medidas mais severas, inclusive bloqueio de valores da conta do plano para custear o tratamento. ",
+        },
+        question7: {
+          question:
+            "O plano pode cancelar meu contrato porque estou usando demais?",
+          answer:
+            "Não. O uso frequente ou a gravidade da doença do paciente não são motivos para o cancelamento do contrato. Isso caracteriza prática abusiva e discriminatória, vedada pelo Código de Defesa do Consumidor e pela legislação dos planos de saúde. ",
+        },
+        question8: {
+          question: "Como posso saber se o meu caso tem chance na Justiça?",
+          answer:
+            "A melhor forma é agendar uma análise do seu caso com um advogado especializado, que vai examinar os documentos, a negativa do plano e o relatório médico. Isso permite avaliar as chances de sucesso e as medidas urgentes a serem tomadas.",
+        },
+        question9: {
+          question: "Quais documentos preciso para entrar com a ação?",
+          answer:
+            "Em geral: cópia do contrato do plano, carteirinha, comprovante dos pagamentos, relatório do médico justificando o tratamento ou exame, e a negativa do plano por escrito. Dependendo do caso, podem ser necessários exames recentes, receitas e outros documentos.",
+        },
+        question10: {
+          question:
+            "O juiz pode obrigar o plano a reembolsar valores que paguei do meu bolso?",
+          answer:
+            "Pode sim. Se você precisou pagar por um tratamento ou medicamento que o plano de saúde negou indevidamente, é possível pedir o reembolso integral, atualizado e com juros.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
