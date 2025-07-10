@@ -29,7 +29,6 @@ export default function Index() {
         influencer={false}
         mesclado={true}
       />
-//      <BlogPosts />
       <Features
         colorMode={colorMode}
         defaultFeature={false}
