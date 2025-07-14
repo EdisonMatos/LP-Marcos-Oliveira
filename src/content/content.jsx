@@ -137,12 +137,11 @@ const content = {
           <span className="text-primary"> planos de saúde.</span>
         </h1>
       ),
-      subtitle:
-        "Quando o plano falha, eu entro em ação. Defesa rápida e técnica para quem não pode esperar.",
+      subtitle: "Atuação rápida e estratégica a quem não pode esperar.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
-      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      heroDefaultImage: bgHeroImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
       ctaButtonText: "Exija seus direitos agora",
       obsHero: {
