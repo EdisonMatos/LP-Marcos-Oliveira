@@ -13,6 +13,7 @@ import {
 import { Link } from "react-scroll";
 import content from "../../content/content";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
+import { FileText } from "lucide-react";
 
 export default function SidebarSocial({ colorMode }) {
   const [visible, setVisible] = useState(false);
@@ -141,10 +142,10 @@ export default function SidebarSocial({ colorMode }) {
                           <ul className="p-0 m-0 list-none">
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <UserSearch />
+                                <FileText />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="service"
+                                    to="blog"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -160,10 +161,10 @@ export default function SidebarSocial({ colorMode }) {
                             </li>
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <ServerIcon />
+                                <UserSearch />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="about"
+                                    to="service"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -180,10 +181,10 @@ export default function SidebarSocial({ colorMode }) {
 
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <HelpCircle />
+                                <ServerIcon />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="faq"
+                                    to="about"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -192,6 +193,26 @@ export default function SidebarSocial({ colorMode }) {
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[3]}
+                                  </Link>
+                                </span>
+                                <Ripple />
+                              </a>
+                            </li>
+
+                            <li>
+                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                                <HelpCircle />
+                                <span className="ml-[8px] ">
+                                  <Link
+                                    to="faq"
+                                    className="align-text-top cursor-pointer"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-100}
+                                    href="#"
+                                  >
+                                    {content.texts.navbar.menuItems[4]}
                                   </Link>
                                 </span>
                                 <Ripple />
