@@ -44,6 +44,7 @@ export default function Index() {
         instagram={true}
         socialPrint={true}
       />
+      <BlogPosts />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
