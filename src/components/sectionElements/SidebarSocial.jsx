@@ -145,7 +145,7 @@ export default function SidebarSocial({ colorMode }) {
                                 <FileText />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="blog"
+                                    to="service"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -164,7 +164,7 @@ export default function SidebarSocial({ colorMode }) {
                                 <UserSearch />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="service"
+                                    to="about"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -184,7 +184,7 @@ export default function SidebarSocial({ colorMode }) {
                                 <ServerIcon />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="about"
+                                    to="blog"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}

@@ -121,9 +121,9 @@ const content = {
       },
       menuItems: [
         "Início",
-        "Blog",
         "Áreas de Atuação",
         "Quem Somos",
+        "Blog",
         "Perguntas Frequentes",
       ],
       ctaButtonText: "Contato",
