@@ -553,7 +553,7 @@ const content = {
         "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/moadvocacia4.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/moadvocacia.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
       blogLink: "https://moadvocacia4.wordpress.com/",
