@@ -556,7 +556,7 @@ const content = {
         "https://public-api.wordpress.com/rest/v1.1/sites/moadvocacia.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://moadvocacia4.wordpress.com/",
+      blogLink: "https://moadvocacia.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
